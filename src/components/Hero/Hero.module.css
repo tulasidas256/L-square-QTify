@@ -1,0 +1,12 @@
+.hero{
+    background-color: #121212;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.txt{
+    color: #FFFFFF;
+}
