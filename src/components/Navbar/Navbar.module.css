@@ -10,6 +10,7 @@
 
 .feed{
     font-size: 18px;
+    font-family: "poppins", sans-serif;
     width: 170px;
     height: 47px;
     color: #34C94B;
@@ -18,5 +19,5 @@
     border-radius: 12px;
     padding: 10px 16px 10px 16px;
     background: #121212;
-
+    cursor: pointer;
 }
