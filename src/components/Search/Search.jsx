@@ -5,7 +5,9 @@ import { ReactComponent as SearchIcon } from "../../assets/Search icon.svg";
 const SearchBar = ({placeholder}) => {
 
     const onSubmit = (e) =>{
-        e.preventDefault();    };
+        e.preventDefault();    
+    };
+
 
     return (
         <form className={style.wrapper}

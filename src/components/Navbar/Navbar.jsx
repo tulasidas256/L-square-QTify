@@ -7,10 +7,10 @@ const Navbar = () => {
 
     return (
         <nav className={style.navbar}>
-            <a herf="/">
+            <a href="/">
             <Logo/>
             </a>
-            <Search plaeholder="Search a album of your choice"/>
+            <Search placeholder="Search a album of your choice"/>
             <button className={style.feed}>Give Feedback</button>
         </nav>
     );
