@@ -1,0 +1,22 @@
+.navbar{
+    background: #34C94B;
+    height: 74px;
+    /*width:1440px;*/
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed{
+    font-size: 18px;
+    width: 170px;
+    height: 47px;
+    color: #34C94B;
+    align-items: center;
+    border: 1px solid #121212;
+    border-radius: 12px;
+    padding: 10px 16px 10px 16px;
+    background: #121212;
+
+}
