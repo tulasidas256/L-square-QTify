@@ -8,7 +8,7 @@ const RightCarousel = ()=>{
 	const [isEnd,setIsEnd] = useState(swiper.isEnd);
 	
 	useEffect(()=>{
-		swiper.on("slideChange",function(){
+		swiper.on("slideChange",() => {
 			setIsEnd(swiper.isEnd);
 		})
 	},[]);
